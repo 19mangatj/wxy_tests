@@ -8,6 +8,20 @@ Please do not spend more than two-three hours on this assignment. We do not want
 
 1. Please share a link to a code base for a website you have built or substantively contributed to. If it was a collaboration please provide a clear description of your role. 
 
+### Submission for Part A.1
+#### Frontend example
+["Reddit Map Github Link (Final Version)"](https://github.com/iDPI-Umass/reddit-map)
+["Reddit Map Github Link (Prototype)"](https://github.com/iDPI-Umass/reddit-map/tree/8eaf274a7f961eba1534486811ec544e5c345ab2/src)
+As a part of my senior thesis in college, I helped create ["Reddit Map"](https://redditmap.social/). See the ["about page"](https://redditmap.social/about) for more information. 
+
+My role in the project included working with a data scientist to understand the data we were trying to visualize, creating an initial design of the application using Figma, and prototyping the application for user tests using React and d3.js. 
+
+Through the protyping process, I realize that d3.js is not great for rendering large amounts of data. For the deployed version, I worked with a Software Engineer to transfer my design and prototype into Svelte and Canvas. The developer transferred most of the application into Svelte and Canvas while I focused on thesis/paper writing. I jumped into development later to implement a custom search and accordion feature along with a toggle feature that helped view the impacts of the 2023 Reddit Protest on the site in Svelte. Above, I included code for the prototype and for the final version of the Reddit Map. 
+
+#### Backend example
+["Backend for boundaries platform"](https://github.com/19mangatj/wxy_code_sample?tab=readme-ov-file)
+Due to issues with fork permissions, I wasn't able to share the whole repo. Instead, I created a private repo with the portion of the project I built (backend). See the `README.md` file of the code sample for details.
+
 2. In no more than a few paragraphs, please describe how you would approach developing a website for the scenario described below. Feel free to include simple diagrams of the architecture as helpful.  
 
     You are working with the NYC Department of City Planning on a neighborhood plan. As part of the process, we are developing a website to solicit community input on what the plan should include. The website must have an interactive map with context layers and a feature that allows community members to add  comments to the map to share ideas for the plan. The comments should not be publicly visible on the site but must be saved along with their location information so that they can later be analyzed. 
